@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "title": "Jugnoo1",
+      "views": 400111
+    },
+    {
+      "id": "a1fb",
+      "views": 2323,
+      "title": "223"
+    },
+    {
+      "id": "5e3a",
+      "views": 121,
+      "title": "sd"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
