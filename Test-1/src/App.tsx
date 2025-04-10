@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
-import { Post } from '../types/post'
-import CreatePost from '../components/CreatePost'
+import { Post } from './types/post'
+import CreatePost from './components/CreatePost'
 
 const API = 'http://localhost:3000/posts'
 
@@ -58,7 +58,11 @@ const App: React.FC = () => {
   return (
     <div className='p-2'>
       {/* <h1>Create Post</h1> */}
-      <CreatePost onPostCreated={fetchPosts} />
+      <button onClick={()=>{
+        navigate('/create')
+      }}>Create</button>
+     
+      {/* <CreatePost onPostCreated={fetchPosts} /> */}
     
 
       <h1>All Posts</h1>
